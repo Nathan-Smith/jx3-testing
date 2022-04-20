@@ -62,11 +62,11 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
-- chart: jx3/lighthouse-webui-plugin
+- chart: jxgh/lighthouse-webui-plugin
   version: 0.1.2
   name: lighthouse-webui-plugin
   values:
-  - ../../versionStream/charts/jx3/lighthouse-webui-plugin/values.yaml.gotmpl
+  - ../../versionStream/charts/jxgh/lighthouse-webui-plugin/values.yaml.gotmpl
   - jx-values.yaml
 templates: {}
 renderedvalues: {}
