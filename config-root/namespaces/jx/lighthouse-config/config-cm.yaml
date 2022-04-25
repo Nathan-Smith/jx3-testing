@@ -45,7 +45,7 @@ data:
         repos:
         - Nathan-Smith/jx3-testing
         - Nathan-Smith/jx3-spring-boot-test
-      target_url: http://lighthouse-jx.127.0.0.1.nip.io/merge/status
+      target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

@@ -19,7 +19,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: lighthouse-jx.127.0.0.1.nip.io
+    - host: lighthouse-jx.192.168.49.2.nip.io
       http:
         paths:
           - pathType: ImplementationSpecific
