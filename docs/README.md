@@ -45,6 +45,12 @@
 	      <td></td>
 	    </tr>
     <tr>
+	      <td><a href='https://github.com/helm/chartmuseum' title='DEPRECATED Host your own Helm Chart Repository'> <img src='https://raw.githubusercontent.com/helm/chartmuseum/master/logo2.png' width='24px' height='24px'> chartmuseum </a></td>
+	      <td>2.14.2</td>
+	      <td></td>
+	      <td><a href='https://github.com/helm/chartmuseum'>source</a></td>
+	    </tr>
+    <tr>
 	      <td><a href='https://hub.docker.com/_/registry/' title='DEPRECATED A Helm chart for Docker Registry'> <img src='https://hub.docker.com/public/images/logos/mini-logo.svg' width='24px' height='24px'> docker-registry </a></td>
 	      <td></td>
 	      <td><a href='http://docker-registry-jx.192.168.49.2.nip.io/'>view</a></td>

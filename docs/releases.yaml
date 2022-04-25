@@ -62,6 +62,23 @@
     resourcePath: config-root/namespaces/jx/bucketrepo
     version: 0.1.67
   - apiVersion: v1
+    appVersion: 0.12.0
+    deprecated: true
+    description: DEPRECATED Host your own Helm Chart Repository
+    firstDeployed: "2022-04-25T14:21:51Z"
+    home: https://github.com/helm/chartmuseum
+    icon: https://raw.githubusercontent.com/helm/chartmuseum/master/logo2.png
+    keywords:
+    - chartmuseum
+    - helm
+    - charts repo
+    lastDeployed: "2022-04-25T14:21:51Z"
+    name: chartmuseum
+    repositoryName: stable
+    repositoryUrl: https://charts.helm.sh/stable
+    resourcePath: config-root/namespaces/jx/chartmuseum
+    version: 2.14.2
+  - apiVersion: v1
     appVersion: 2.7.1
     applicationUrl: http://docker-registry-jx.192.168.49.2.nip.io/
     deprecated: true
