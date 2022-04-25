@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Nathan-Smith
+    provider: github
+    repository: jx3-spring-boot-test
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: nathan-smith-jx3-spring-boot-test
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/Nathan-Smith/jx3-spring-boot-test.git
+  org: Nathan-Smith
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3-spring-boot-test
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/Nathan-Smith/jx3-spring-boot-test

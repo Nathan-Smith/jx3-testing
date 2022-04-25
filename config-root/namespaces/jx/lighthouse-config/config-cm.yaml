@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        Nathan-Smith/jx3-spring-boot-test: true
         Nathan-Smith/jx3-testing: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        Nathan-Smith/jx3-spring-boot-test: merge
         Nathan-Smith/jx3-testing: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - Nathan-Smith/jx3-testing
+        - Nathan-Smith/jx3-spring-boot-test
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - Nathan-Smith/jx3-testing
+        - Nathan-Smith/jx3-spring-boot-test
       target_url: http://lighthouse-jx.127.0.0.1.nip.io/merge/status
 kind: ConfigMap
 metadata:
