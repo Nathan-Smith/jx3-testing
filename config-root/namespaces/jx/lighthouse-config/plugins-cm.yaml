@@ -6,6 +6,10 @@ data:
       repos:
       - Nathan-Smith/jx3-testing
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - Nathan-Smith/jx3-spring-boot-test
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -16,6 +20,11 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
+      Nathan-Smith/jx3-spring-boot-test:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       Nathan-Smith/jx3-testing:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -26,6 +35,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      Nathan-Smith/jx3-spring-boot-test:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       Nathan-Smith/jx3-testing:
       - config-updater
       - approve
@@ -55,6 +80,11 @@ data:
     - repos:
       - Nathan-Smith/jx3-testing
       trusted_org: todo
+    - repos:
+      - Nathan-Smith/jx3-spring-boot-test
+      trusted_org: todo
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
