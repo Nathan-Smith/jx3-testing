@@ -46,12 +46,6 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/bucketrepo/values.yaml.gotmpl
   - jx-values.yaml
-- chart: stable/chartmuseum
-  version: 2.14.2
-  name: chartmuseum
-  values:
-  - ../../versionStream/charts/stable/chartmuseum/values.yaml.gotmpl
-  - jx-values.yaml
 - chart: stable/docker-registry
   name: docker-registry
   values:
