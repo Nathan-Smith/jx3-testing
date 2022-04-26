@@ -21,7 +21,7 @@ jxRequirements:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local:8080/
+    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts/
     clusterName: kind
     devEnvApprovers:
     - todo
@@ -47,7 +47,7 @@ jxRequirements:
       production: false
   pipelineUser:
     username: Nathan-Smith
-  repository: none
+  repository: bucketrepo
   secretStorage: local
   vault: {}
   webhook: lighthouse
