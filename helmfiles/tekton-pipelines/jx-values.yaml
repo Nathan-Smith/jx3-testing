@@ -21,7 +21,7 @@ jxRequirements:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://chartmuseum.jx.svc.cluster.local/
+    chartRepository: http://jenkins-x-chartmuseum.jx.svc.cluster.local/
     clusterName: kind
     devEnvApprovers:
     - todo
